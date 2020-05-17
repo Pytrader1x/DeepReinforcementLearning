@@ -4,6 +4,10 @@ Deep Reinforcement Learning nano degree
 Objective:
 
 Train a bot using Q learning to collect as many yellow bananas while avoiding blue bananas.
+
+## Completed Jupyter notebook report:
+https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Navigation-DQN.pdf
+
 ## After training we get a robot that scores > 13 after 946 episodes
 ![](Deep_RL_dqn.gif)
 
