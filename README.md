@@ -52,7 +52,7 @@ Finally, unzip the environment archive in the 'project's environment' directory 
 
 # Train a agent
 
-Execute the provided notebook within this Nanodegree Udacity Online Workspace for "Optimal_navigation_DQN.ipynb" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
+Execute the provided notebook within this Nanodegree Udacity Online Workspace for "Optimal_DQN_Navigation.ipynb" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
 
 Note :
 
@@ -60,6 +60,4 @@ Manually playing with the environment has not been implemented as it is not avai
 Watching the trained agent playing in the environment has not been implemented neither, as it is not available with Udacity Online Worspace (No Virtual Screen) and not compatible with my personal setup (see Misc : Configuration used section)
 Misc : Configuration used
 
-This agent has been trained on the Udacity provided online workspace. This environment allows to use a Nvidia K80 GPU that is used for the training. (The headless / no visualization version of the Unity environment was thus used)
 
-My setup is a "Deep Learning Dev Box", and is basically a Linux GPU Server, running Docker containers (using Nvidia Docker 2), serving Jupyter Lab notebooks which are accessed remotely via a web interface (or a ssh connection) : unfortunately this setup does not seem suitable to run Unity ML agent, with the GPU and providing a display for for the agent (See Unity documentation for more details)
