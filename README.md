@@ -48,7 +48,7 @@ Windows (64-bit): click here
 
 Finally, unzip the environment archive in the 'project's environment' directory and eventually adjust thr path to the UnityEnvironment in the code.
 
-Train a agent
+# Train a agent
 
 Execute the provided notebook within this Nanodegree Udacity Online Workspace for "project #1 Navigation" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
 
