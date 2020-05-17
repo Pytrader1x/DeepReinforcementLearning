@@ -6,6 +6,8 @@ Objective:
 Train a bot using Q learning to collect as many yellow bananas while avoiding blue bananas.
 # After training we get a robot that scores > 13 after 946 episodes
 ![](Deep_RL_dqn.gif)
+
+![](Result_episodic_scores.jpg)
 # Environment description:
 
 The environment is based on Unity ML-agents
