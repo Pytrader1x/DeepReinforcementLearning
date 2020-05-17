@@ -65,3 +65,7 @@ Watching the trained agent playing in the environment has not been implemented n
 Misc : Configuration used
 
 
+# Future research:
+
+Generalise the DQN with Double Q learning - in progress with DDQN agent
+Optimise hyperparameterts to get to a reward of +20
