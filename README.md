@@ -5,7 +5,7 @@ Objective:
 
 Train a bot using Q learning to collect as many yellow bananas while avoiding blue bananas.
 
-![](Deep Reinforcement Learning DQN Bannana.gif)
+![]("Deep Reinforcement Learning DQN Bannana.gif")
 # Environment description:
 
 The environment is based on Unity ML-agents
