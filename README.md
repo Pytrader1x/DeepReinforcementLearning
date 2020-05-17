@@ -30,7 +30,7 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 Getting started
 
-Installation requirements
+## Installation requirements
 
 You first need to configure a Python 3.6 / PyTorch 0.4.0 environment with the needed requirements as described in the Udacity repository
 
@@ -52,7 +52,7 @@ Finally, unzip the environment archive in the 'project's environment' directory 
 
 # Train a agent
 
-Execute the provided notebook within this Nanodegree Udacity Online Workspace for "project #1 Navigation" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
+Execute the provided notebook within this Nanodegree Udacity Online Workspace for "Optimal_navigation_DQN.ipynb" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
 
 Note :
 
