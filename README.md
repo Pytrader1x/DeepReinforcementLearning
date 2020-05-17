@@ -5,7 +5,7 @@ Objective:
 
 Train a bot using Q learning to collect as many yellow bananas while avoiding blue bananas.
 
-
+![](robot_banana.gif)
 # Environment description:
 
 The environment is based on Unity ML-agents
