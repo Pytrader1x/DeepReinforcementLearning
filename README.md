@@ -5,6 +5,8 @@ Objective:
 
 Train a bot using Q learning to collect as many yellow bananas while avoiding blue bananas.
 
+We consider the problem solved when the moving average of the last 100 episodes is >= 13.01
+
 ## Completed Jupyter notebook report:
 https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Navigation-DQN.pdf
 
@@ -17,7 +19,8 @@ https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Navigation-D
 The environment is based on Unity ML-agents
 
 The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents. Agents can be trained using reinforcement learning, imitation learning, neuroevolution, or other machine learning methods through a simple-to-use Python API.
-A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+A reward of +1 is provided for getting a yellow banana, and a reward of -1 is provided for getting a blue banana. Ergo, the objective is to maximise the collection of yellow banana's while minimizing blue ones.
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction.
 
