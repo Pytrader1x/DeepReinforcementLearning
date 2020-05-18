@@ -10,9 +10,9 @@ The input is the vector of states as show below:
 
 Deep RL DQN network structure is as follows:
 
-Fully connected layer - input: 37 (state size) output: 128
-Fully connected layer - input: 128 output 64
-Fully connected layer - input: 64 output: (action size)
+- Fully connected layer - input: 37 (state size) output: 512
+- Fully connected layer - input: 512 output 512
+- Fully connected layer - input: 512 output: (action size)
 
 Parameters used in DQN algorithm:
 - Batch size of 128 to leverage GPU rather than 64
