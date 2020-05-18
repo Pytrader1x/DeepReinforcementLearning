@@ -1,7 +1,13 @@
 ## Report
-Learning algorithm
+Reinforcement learning algorithm
 
-The learning algorithm used is vanilla Deep Q Learning as described in original paper. As an input the vector of state is used instead of an image so convolutional neural nework is replaced with deep neural network. The deep neural network has following layers:
+The learning algorithm used is vanilla Deep Q Learning as described in original paper. 
+
+As an input the vector of state is 
+
+![](action_space.png)
+
+The deep neural network has following layers:
 
 Fully connected layer - input: 37 (state size) output: 128
 Fully connected layer - input: 128 output 64
