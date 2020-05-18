@@ -55,7 +55,7 @@ Here we set the fixed value of W- as a fixed copy of W that we don’t change du
 
 This decouples the target from the parameters and makes the learning algorithm more stable.
 
-![](decoupled dqn.png)
+![](decoupled_dqn.png)
 
 
 Double Q learning:
