@@ -18,6 +18,32 @@ https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Navigation-D
 
 
 # Deep Q learning:
+Experience Replay:
+![](experience_replay.png)
+A good way to make more efficient use of observed experiences. 
+
+Basic Online Q learning algorithm where we interact with the environment and at each time step we get a state action reward tuple and learn from the it. Then its discarded.
+
+However with Experience replay the SARSA Experiences are recorded so that we can at random re select them so that rare occurrences can play a greater role in training the network while also preventing oscillations or catastrophic divergences as the model will now not rely on the relationships between the correlation between episodes of the SARSA tuples.
+
+
+We want our RL agent to focus on exploring the Action state space fully by employing an Epsilon greedy approach. Then once fully explored we can focus on training.
+
+Double Q learning:
+
+To make our estimation of Q more robust we can use Double Q learning. Select the best action using one set of parameters W , but evaluate it using a different Parameters W’.
+
+Its basically like having two separate function approximators that must agree on the best action.
+
+If W picks an action that is not best according to W’ then the Q value returned is not that High.
+In the long run this prevents the algorithm from propagating incidental higher rewards, that may have been obtained by chance and don’t reflect long term returns.
+
+Where do we get the second set of parameters W’ from, when we do fixed target Q learning with W-, which stays frozen for a certain period of time it is thus sufficiently different from W that it can be re used for this purpose.
+
+Overall double Q learning helps prevent the Q values from Exploding early on or fluctuating later on. As such Double DQN performs significantly better than vanilla DQN’s.
+
+
+
 ![](dqn.png)
 
 
