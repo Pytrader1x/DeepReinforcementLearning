@@ -29,6 +29,35 @@ However with Experience replay the SARSA Experiences are recorded so that we can
 
 We want our RL agent to focus on exploring the Action state space fully by employing an Epsilon greedy approach. Then once fully explored we can focus on training.
 
+When the agent interacts with the environment, the sequence of experience tuples can be highly correlated. The naive Q-learning algorithm that learns from each of these experience tuples in sequential order runs the risk of getting swayed by the effects of this correlation. By instead keeping track of a replay buffer and using experience replay to sample from the buffer at random, we can prevent action values from oscillating or diverging catastrophically.
+The replay buffer contains a collection of experience tuples (SS, AA, RR, S′S′). The tuples are gradually added to the buffer as we are interacting with the environment.
+The act of sampling a small batch of tuples from the replay buffer in order to learn is known as experience replay. In addition to breaking harmful correlations, experience replay allows us to learn more from individual tuples multiple times, recall rare occurrences, and in general make better use of our experience.
+
+Fixed Q targets:
+
+Summary
+ 
+In Q-Learning, we update a guess with a guess, and this can potentially lead to harmful correlations. To avoid this, we can update the parameters w in the network q^ to better approximate the action value corresponding to state S and action A with the following update rule:
+
+
+
+The goal is to reduce the error between this TD Target and the currently predicted Q value, this is called the TD Error.
+
+The target here is thought to be the replacement for the true value function Q Π which is unknown to us.
+
+We originally used Q Π to define a squared error loss and differentiated that with respect to W.
+
+![](TD_Sarsa.png)
+
+
+![](td_sarsa2.png)
+Here we set the fixed value of W- as a fixed copy of W that we don’t change during the learning step, in practice we use w – to generate targets while changing w for a certain number of learning steps. Then we update W- for the latest W, again we learn for a number of steps and so on.
+
+This decouples the target from the parameters and makes the learning algorithm more stable.
+
+![](decoupled dqn.png)
+
+
 Double Q learning:
 
 To make our estimation of Q more robust we can use Double Q learning. Select the best action using one set of parameters W , but evaluate it using a different Parameters W’.
