@@ -16,6 +16,11 @@ https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Navigation-D
 ![](Result_episodic_scores.jpg)
 # Environment description:
 
+
+# Deep Q learning:
+![](dqn.png)
+
+
 The environment is based on Unity ML-agents
 
 The Unity Machine Learning Agents Toolkit (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents. Agents can be trained using reinforcement learning, imitation learning, neuroevolution, or other machine learning methods through a simple-to-use Python API.
