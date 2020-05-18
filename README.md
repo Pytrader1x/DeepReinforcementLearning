@@ -1,5 +1,6 @@
 # Deep Reinforcement Learning Robot: Navigation
 Deep Reinforcement Learning nano degree
+- [Report](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Report.md)
 
 ## Quick start:
 
