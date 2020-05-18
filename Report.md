@@ -14,6 +14,7 @@ Ending epsilion: 0.01
 Epsilion decay rate: 0.999
 ## Results
 
+![](Episode_training.png)
 ![](Result_episodic_scores.jpg)
 
 ## Optimized DQN agent
