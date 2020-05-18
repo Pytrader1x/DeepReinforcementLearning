@@ -15,6 +15,8 @@ Fully connected layer - input: 128 output 64
 Fully connected layer - input: 64 output: (action size)
 
 Parameters used in DQN algorithm:
+- Batch size of 128 to leverage GPU rather than 64
+
 - Starting epsilion: 1.0
 
 - Maximum steps per episode: 1000
