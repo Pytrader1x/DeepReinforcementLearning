@@ -116,39 +116,31 @@ Given this information, the agent has to learn how to best select actions. Four 
 The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 
-
-Getting started
-
 ## Installation requirements
+To run train this model you will need the below key elements:
 
-You first need to configure a Python 3.6 / PyTorch 0.4.0 environment with the needed requirements as described in the Udacity repository
+1. [Install AI gym dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+2. [Install Unity environment](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+  - Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
+  
+- Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
 
-Of course you have to clone this project and have it accessible in your Python environment
+- Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip
 
-Then you have to install the Unity environment as described in the Getting Started section (The Unity ML-agant environment is already configured by Udacity)
+- Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip
 
-Download the environment from one of the links below. You need only select the environment that matches your operating system:
+  Then, place unity the file in the p1_navigation/ folder in the DRLND GitHub repository from part 1, and unzip (or decompress) the file.
 
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
-(For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+3. [Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
 
-(For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the environment.
+4. [Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
 
-Finally, unzip the environment archive in the 'project's environment' directory and eventually adjust thr path to the UnityEnvironment in the code.
+5. [DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
+
 
 # Train a agent
 
-Execute the provided notebook within this Nanodegree Udacity Online Workspace for "Optimal_DQN_Navigation.ipynb" (or build your own local environment and make necessary adjustements for the path to the UnityEnvironment in the code )
-
-Note :
-
-Manually playing with the environment has not been implemented as it is not available with Udacity Online Worspace (No Virtual Screen)
-Watching the trained agent playing in the environment has not been implemented neither, as it is not available with Udacity Online Worspace (No Virtual Screen) and not compatible with my personal setup (see Misc : Configuration used section)
-Misc : Configuration used
-
+Execute the provided "Optimal_DQN_Navigation.ipynb" and modify the path for the unity app depending on your local machine
 
 # Future research:
 
