@@ -2,7 +2,11 @@
 Deep Reinforcement Learning nano degree
 
 Quick start:
+
 [Navigation notebook!](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
+
+
+[Model!](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
 
 
 Objective:
