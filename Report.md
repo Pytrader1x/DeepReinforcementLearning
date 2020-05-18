@@ -7,7 +7,7 @@ Reinforcement learning algorithm
 
 3. [DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
 
-The learning algorithm used is vanilla Deep Q Learning as described in original paper. 
+The learning algorithm used is vanilla Deep Q Learning, DDQN was researched however the results weren't converging so focused on vanilla impletmentation. 
 
 The input is the vector of states as show below:
 
@@ -40,3 +40,8 @@ Parameters used in DQN algorithm:
 
 ## Optimized DQN agent
 ![](Deep_RL_dqn.gif)
+
+# Future research:
+
+Generalise the DQN with Double Q learning - in progress with DDQN agent
+Optimise hyperparameterts to get to a reward of +20
