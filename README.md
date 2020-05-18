@@ -1,6 +1,10 @@
 # Deep Reinforcement Learning Robot: Navigation
 Deep Reinforcement Learning nano degree
 
+Quick start:
+[Navigation notebook!](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
+
+
 Objective:
 
 Train a bot using Q learning to collect as many yellow bananas while avoiding blue bananas.
