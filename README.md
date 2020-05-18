@@ -6,7 +6,7 @@ Deep Reinforcement Learning nano degree
 To run train this model you will need the below key elements:
 
 1. [Install AI gym dependencies](https://github.com/udacity/deep-reinforcement-learning#dependencies)
-2. [Install Unity environment](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+2. Install Unity environment
   - Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip
   
 - Mac OSX: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip
