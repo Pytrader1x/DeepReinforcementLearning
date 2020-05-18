@@ -7,7 +7,7 @@ Quick start:
 
 
 [Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
-
+[DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
 
 Objective:
 
