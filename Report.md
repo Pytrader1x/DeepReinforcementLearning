@@ -44,4 +44,5 @@ Parameters used in DQN algorithm:
 # Future research:
 
 Generalise the DQN with Double Q learning - in progress with DDQN agent
+
 Optimise hyperparameterts to get to a reward of +20
