@@ -5,8 +5,8 @@ Quick start:
 
 [Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
 
-
 [Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
+
 [DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
 
 Objective:
