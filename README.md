@@ -1,7 +1,7 @@
 # Deep Reinforcement Learning Robot: Navigation
 Deep Reinforcement Learning nano degree
 
-Quick start:
+## Quick start:
 
 To run train this model you will need the below key elements:
 
