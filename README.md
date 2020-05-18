@@ -17,11 +17,11 @@ To run train this model you will need the below key elements:
 
   Then, place unity the file in the p1_navigation/ folder in the DRLND GitHub repository from part 1, and unzip (or decompress) the file.
 
-[Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
+3. [Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
 
-[Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
+4. [Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
 
-[DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
+5. [DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
 
 Objective:
 
