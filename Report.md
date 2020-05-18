@@ -15,15 +15,15 @@ Fully connected layer - input: 128 output 64
 Fully connected layer - input: 64 output: (action size)
 
 Parameters used in DQN algorithm:
-Starting epsilion: 1.0
+- Starting epsilion: 1.0
 
-Maximum steps per episode: 1000
+- Maximum steps per episode: 1000
 
-Ending epsilion: 0.01
+- Ending epsilion: 0.01
 
-Epsilion decay rate: 0.995
+- Epsilion decay rate: 0.995
 
-Max number of episodes = 2000
+- Max number of episodes = 2000
 ## Results
 
 ![](Episode_training.png)
