@@ -1,6 +1,12 @@
 ## Report
 Reinforcement learning algorithm
 
+1. [Navigation notebook](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/Optimal_DQN_Navigation.ipynb)
+
+2. [Model](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/model.py)
+
+3. [DQN Agent](https://github.com/Pytrader1x/DeepReinforcementLearning/blob/master/dqn_agent.py)
+
 The learning algorithm used is vanilla Deep Q Learning as described in original paper. 
 
 The input is the vector of states as show below:
