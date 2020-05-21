@@ -72,7 +72,8 @@ We originally used Q Π to define a squared error loss and differentiated that w
 
 ![](TD_Sarsa.png)
 
-
+ 
+ 
 ![](td_sarsa2.png)
 Here we set the fixed value of W- as a fixed copy of W that we don’t change during the learning step, in practice we use w – to generate targets while changing w for a certain number of learning steps. Then we update W- for the latest W, again we learn for a number of steps and so on.
 
